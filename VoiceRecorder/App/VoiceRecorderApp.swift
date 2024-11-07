@@ -1,6 +1,6 @@
 //
-//  VoiceRecorderAppApp.swift
-//  VoiceRecorderApp
+//  VoiceRecorderApp.swift
+//  VoiceRecorder
 //
 //  Created by george on 06.10.2024.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct VoiceRecorderAppApp: App {
+struct VoiceRecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
